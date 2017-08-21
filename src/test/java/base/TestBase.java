@@ -14,7 +14,7 @@ import org.testng.annotations.BeforeSuite;
 public class TestBase {
 	/*
 	 * Serves as the superclass for all test suites
-	 * Initializes the following:
+	 * Initializes/Configures the following:
 	 * Selenium WebDriver
 	 * Properties
 	 * Logs
@@ -22,6 +22,7 @@ public class TestBase {
 	 * DB
 	 * Excel 
 	 * Mail
+	 * Jenkins
 	 */
 	
 	public static WebDriver driver;

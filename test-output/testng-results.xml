@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="404" started-at="2017-08-21T19:31:05Z" finished-at="2017-08-21T19:31:06Z">
+  <suite name="Default suite" duration-ms="398" started-at="2017-08-21T19:50:11Z" finished-at="2017-08-21T19:50:11Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="404" started-at="2017-08-21T19:31:05Z" finished-at="2017-08-21T19:31:06Z">
+    <test name="Default test" duration-ms="398" started-at="2017-08-21T19:50:11Z" finished-at="2017-08-21T19:50:11Z">
       <class name="testSuites.TestLogin">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:testSuites.TestLogin@5f341870]" name="setUp" is-config="true" duration-ms="7753" started-at="2017-08-21T12:30:57Z" finished-at="2017-08-21T12:31:05Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testSuites.TestLogin@610694f1]" name="setUp" is-config="true" duration-ms="6951" started-at="2017-08-21T12:50:04Z" finished-at="2017-08-21T12:50:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginTest()[pri:0, instance:testSuites.TestLogin@5f341870]" name="loginTest" duration-ms="367" started-at="2017-08-21T12:31:05Z" finished-at="2017-08-21T12:31:06Z">
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:testSuites.TestLogin@610694f1]" name="loginTest" duration-ms="360" started-at="2017-08-21T12:50:11Z" finished-at="2017-08-21T12:50:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testSuites.TestLogin@5f341870]" name="tearDown" is-config="true" duration-ms="376" started-at="2017-08-21T12:31:11Z" finished-at="2017-08-21T12:31:11Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testSuites.TestLogin@610694f1]" name="tearDown" is-config="true" duration-ms="401" started-at="2017-08-21T12:50:16Z" finished-at="2017-08-21T12:50:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

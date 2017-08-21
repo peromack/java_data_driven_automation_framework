@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
+import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterSuite;
@@ -16,7 +17,7 @@ public class TestBase {
 	 * Initializes/Configures the following:
 	 * Selenium WebDriver
 	 * Properties
-	 * Logs
+	 * Logs using Log4J
 	 * ExtentReports
 	 * DB
 	 * Excel 
@@ -27,6 +28,7 @@ public class TestBase {
 	public static WebDriver driver;
 	public static Properties config;
 	public static FileInputStream fis;
+	public static Logger log = Logger.getLogger("devpinoyLogger");
 	
 	@BeforeSuite
 	public void setUp() throws IOException {
@@ -47,11 +49,13 @@ public class TestBase {
 			driver.get(config.getProperty("test_site_url"));
 			driver.manage().window().maximize();
 			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+			log.debug("Navigate to site url: " + config.getProperty("test_site_url"));
 		}
 	}
 	
 	@AfterSuite
 	public void tearDown() {
 		driver.quit();
+		log.debug("Close the driver");
 	}
 }

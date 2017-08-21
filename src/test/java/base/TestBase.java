@@ -49,7 +49,7 @@ public class TestBase {
 			driver.get(config.getProperty("test_site_url"));
 			driver.manage().window().maximize();
 			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-			log.debug("Navigate to site url: " + config.getProperty("test_site_url"));
+			log.debug("Navigated to site url: " + config.getProperty("test_site_url"));
 		}
 	}
 	

@@ -1,8 +1,6 @@
 package testSuites;
 
 import org.testng.annotations.Test;
-import org.testng.annotations.Test;
-
 import base.TestBase;
 
 public class TestLogin extends TestBase {

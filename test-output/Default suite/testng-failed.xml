@@ -5,10 +5,11 @@
     <classes>
       <class name="testSuites.TestLogin">
         <methods>
-          <include name="loginTest"/>
-          <include name="invalidLoginTest" invocation-numbers="1"/>
+          <include name="testTearDown"/>
+          <include name="invalidLoginTest" invocation-numbers="0 1"/>
           <include name="setUp"/>
           <include name="tearDown"/>
+          <include name="testSetUp"/>
         </methods>
       </class> <!-- testSuites.TestLogin -->
     </classes>

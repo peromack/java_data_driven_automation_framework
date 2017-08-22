@@ -1,7 +1,14 @@
-22/08/2017 12:28:20 devpinoyLogger Navigated to site url: https://pubhub-rails-app.herokuapp.com/
-22/08/2017 12:28:20 devpinoyLogger Clicked on Sign In link on Landing Page
-22/08/2017 12:28:20 devpinoyLogger Entered name: Tester 1
-22/08/2017 12:28:20 devpinoyLogger Entered password: password1
-22/08/2017 12:28:21 devpinoyLogger Clicked submit button
-22/08/2017 12:28:21 devpinoyLogger Test Passed - Unregistered user was unable to sign in
-22/08/2017 12:30:49 devpinoyLogger Close the driver
+22/08/2017 12:59:29 devpinoyLogger Navigated to site url: https://pubhub-rails-app.herokuapp.com/
+22/08/2017 12:59:29 devpinoyLogger Navigated to Sign In Page
+22/08/2017 12:59:29 devpinoyLogger Entered name: tester 2
+22/08/2017 12:59:30 devpinoyLogger Entered password: password1
+22/08/2017 12:59:30 devpinoyLogger Clicked submit button
+22/08/2017 12:59:30 devpinoyLogger Navigated to Sign In Page
+22/08/2017 12:59:31 devpinoyLogger Entered name: tester 3
+22/08/2017 12:59:31 devpinoyLogger Entered password: password2
+22/08/2017 12:59:31 devpinoyLogger Clicked submit button
+22/08/2017 12:59:31 devpinoyLogger Navigated to Sign In Page
+22/08/2017 12:59:31 devpinoyLogger Entered name: Tester 1
+22/08/2017 12:59:31 devpinoyLogger Entered password: password1
+22/08/2017 12:59:32 devpinoyLogger Clicked submit button
+22/08/2017 12:59:38 devpinoyLogger Close the driver

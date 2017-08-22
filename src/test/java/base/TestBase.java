@@ -8,9 +8,8 @@ import java.util.concurrent.TimeUnit;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeTest;
-
+import org.testng.annotations.AfterSuite;
+import org.testng.annotations.BeforeSuite;
 import utilities.ExcelReader;
 
 public class TestBase {
@@ -33,7 +32,7 @@ public class TestBase {
 	public static Logger log = Logger.getLogger("devpinoyLogger");
 	public static ExcelReader excel = new ExcelReader(System.getProperty("user.dir") + "/src/test/resources/excel/test_data.xlsx");
 	
-	@BeforeTest
+	@BeforeSuite
 	public void setUp() throws IOException {
 		if (driver==null) {
 			
@@ -56,7 +55,7 @@ public class TestBase {
 		}
 	}
 	
-	@AfterTest
+	@AfterSuite
 	public void tearDown() {
 		driver.quit();
 		log.debug("Close the driver");

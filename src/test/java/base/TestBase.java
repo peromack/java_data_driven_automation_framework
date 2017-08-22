@@ -11,6 +11,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 
+import utilities.ExcelReader;
+
 public class TestBase {
 	/*
 	 * Serves as the superclass for all test suites
@@ -29,6 +31,7 @@ public class TestBase {
 	public static Properties config;
 	public static FileInputStream fis;
 	public static Logger log = Logger.getLogger("devpinoyLogger");
+	public static ExcelReader excel = new ExcelReader(System.getProperty("user.dir") + "/src/test/resources/excel/testdata.xlsx");
 	
 	@BeforeSuite
 	public void setUp() throws IOException {

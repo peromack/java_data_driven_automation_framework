@@ -5,8 +5,7 @@
     <classes>
       <class name="testSuites.TestLogin">
         <methods>
-          <include name="testTearDown"/>
-          <include name="invalidLoginTest" invocation-numbers="0 1"/>
+          <include name="invalidLoginTest"/>
           <include name="setUp"/>
           <include name="tearDown"/>
           <include name="testSetUp"/>

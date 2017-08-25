@@ -2,6 +2,7 @@ package base;
 
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.lang.reflect.Method;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
@@ -10,6 +11,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.DataProvider;
 import utilities.ExcelReader;
 
 public class TestBase {
@@ -59,5 +61,27 @@ public class TestBase {
 	public void tearDown() {
 		driver.quit();
 		log.debug("Close the driver");
+	}
+	
+	/*
+	 * This getData() method retrieves test data from the excel sheet 
+	 * whose name matches the test method's name that calls this DataProvider 
+	 * using the following annotation: @Test(dataProvider="getData")
+	 */
+	@DataProvider
+	public Object[][] getData(Method m) {
+		
+		String sheetName = m.getName(); 
+		int rows = excel.getRowCount(sheetName);
+		int cols = excel.getColumnCount(sheetName);
+		
+		Object[][] data = new Object[rows-1][cols];
+		
+		for (int rowNum = 2; rowNum <= rows; rowNum++) {
+			for (int colNum = 0; colNum < cols; colNum++) {
+				data[rowNum - 2][colNum] = excel.getCellData(sheetName, colNum, rowNum);
+			}
+		}
+		return data;	
 	}
 }

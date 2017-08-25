@@ -1,14 +1,14 @@
-22/08/2017 12:59:29 devpinoyLogger Navigated to site url: https://pubhub-rails-app.herokuapp.com/
-22/08/2017 12:59:29 devpinoyLogger Navigated to Sign In Page
-22/08/2017 12:59:29 devpinoyLogger Entered name: tester 2
-22/08/2017 12:59:30 devpinoyLogger Entered password: password1
-22/08/2017 12:59:30 devpinoyLogger Clicked submit button
-22/08/2017 12:59:30 devpinoyLogger Navigated to Sign In Page
-22/08/2017 12:59:31 devpinoyLogger Entered name: tester 3
-22/08/2017 12:59:31 devpinoyLogger Entered password: password2
-22/08/2017 12:59:31 devpinoyLogger Clicked submit button
-22/08/2017 12:59:31 devpinoyLogger Navigated to Sign In Page
-22/08/2017 12:59:31 devpinoyLogger Entered name: Tester 1
-22/08/2017 12:59:31 devpinoyLogger Entered password: password1
-22/08/2017 12:59:32 devpinoyLogger Clicked submit button
-22/08/2017 12:59:38 devpinoyLogger Close the driver
+24/08/2017 18:07:45 devpinoyLogger Navigated to site url: https://pubhub-rails-app.herokuapp.com/
+24/08/2017 18:07:45 devpinoyLogger Navigated to Sign In Page
+24/08/2017 18:07:46 devpinoyLogger Entered name: tester 2
+24/08/2017 18:07:46 devpinoyLogger Entered password: password2
+24/08/2017 18:07:46 devpinoyLogger Clicked submit button
+24/08/2017 18:07:46 devpinoyLogger Navigated to Sign In Page
+24/08/2017 18:07:47 devpinoyLogger Entered name: tester 3
+24/08/2017 18:07:47 devpinoyLogger Entered password: password3
+24/08/2017 18:07:47 devpinoyLogger Clicked submit button
+24/08/2017 18:07:48 devpinoyLogger Navigated to Sign In Page
+24/08/2017 18:07:48 devpinoyLogger Entered name: Tester 1
+24/08/2017 18:07:48 devpinoyLogger Entered password: password1
+24/08/2017 18:07:48 devpinoyLogger Clicked submit button
+24/08/2017 18:07:54 devpinoyLogger Close the driver
